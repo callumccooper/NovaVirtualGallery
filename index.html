@@ -24,7 +24,7 @@
   <body>
     <canvas id="unity-canvas" tabindex="-1"></canvas>
 
-    <script src="Build/Build.loader.js"></script>
+    <script src="Build/Build2.loader.js"></script>
     <script>
       // Optimized mobile handling
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -36,9 +36,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/Build.data.unityweb",
-        frameworkUrl: "Build/Build.framework.js.unityweb",
-        codeUrl: "Build/Build.wasm.unityweb",
+        dataUrl: "Build/Build2.data.unityweb",
+        frameworkUrl: "Build/Build2.framework.js.unityweb",
+        codeUrl: "Build/Build2.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "webgallery",
